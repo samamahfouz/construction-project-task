@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POWER OF</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="container p-3">
+        <div class="d-flex justify-content-between nav-content">
+            <div class="d-flex">
+                <i class="fa-solid fa-bars nav-icon me-3"></i>
+                <div class="logo p-1"><span class="power">POWER</span><span>OF</span></div>
+            </div>
+            
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#latest-work">Our Work</a>
+                </li>
+            </ul>
+
+            <div class="d-flex nav-ddown">
+                <ul class="m-2">
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle text-light " id="navbarDropdown" data-bs-toggle="dropdown" >
+                            <i class="fa-solid fa-earth-americas me-1"></i>English
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item text-dark" href="#">Arabic</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#contact"><i class="fa-regular fa-envelope contact-icon"></i></a>
+                <a href="#contact"><button class="btn btn-warning ms-2 contact-button" href="#contact">Contact Us</button></a>
+            </div> 
+        </div>   
+    </nav>
+
+    <!-- landing -->
+    <section class="landing" id="home">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Assets/slider1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-light m-0 ">
+                    <h1>Make Your Enviroment Safer</h1>
+                    <p>Empowering customers to secure life, environment, property and business 
+                        by providing high quality and innovative protection solutions and knowledge 
+                        to achieve customer satisfaction</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Assets/slider2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-light">
+                    <h1>Make Your Enviroment Safer</h1>
+                    <p>Empowering customers to secure life, environment, property and business 
+                        by providing high quality and innovative protection solutions and knowledge 
+                        to achieve customer satisfaction</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Assets/slider 3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption text-light">
+                    <h1>Make Your Enviroment Safer</h1>
+                    <p>Empowering customers to secure life, environment, property and business 
+                        by providing high quality and innovative protection solutions and knowledge 
+                        to achieve customer satisfaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- about -->
+    <section class="about container" id="about">
+        <div class="title">
+            <h2>About Us </h2>
+        </div>
+        <div class="about-content">
+            <p><span class="text-warning fw-bold">POWER OF</span> was established in Jeddah - Saudi Arabia, and is among 
+                the leading companies in Saudi Arabia that provide services and 
+                products for fire protection systems, fire alarms, firefighting equipment 
+                and security and safety engineering systems. <span class="text-warning fw-bold">POWER OF</span> has a team of 
+                engineers and technicians, professionally trained and qualified, working 
+                on our commitment to providing our expertise to our customers in 
+                protecting life, the environment and property.
+                </p>
+            <img src="/Assets/about.jpg" class="w-50 h-auto" alt="about">
+        </div> 
+    </section>
+
+    <!-- our services  -->
+     <section class="services " id="services">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="slider container pb-5">
+            <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="slider-wrapper">
+              <div class="slider-container">
+                <div class="card">
+                    <img src="Assets/one.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Periodic Preventive
+                            Maintenance Contracts</p>
+                        <p>عقود الصيانة الدورية الوقائية</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/two.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Projects and Contracting</p>
+                        <p>المشـــــاريـــــع والمقـــــاولات</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/three.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Engineering Services</p>
+                        <p>الخدمـــــات الهندسيــــــــة</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/four.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Water Spray (mist)
+                            Extinguishing Systems</p>
+                        <p>أنظمة الإطفاء برذاذ الماء (الضبابي)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/five.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Fire Pump Stations</p>
+                        <p>محطات مضخات الحريق</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/six.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Fire Hoses, Hydrant and Fire
+                            Extinguishers</p>
+                        <p>خراطيم وعساكر وطفايات الحريق</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/seven.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Fire Alarm Systems</p>
+                        <p>أنظمـــــــة انـــــذار الحريـــــق</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/eight.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>CCTV Systems</p>
+                        <p>أنظمة كاميرات المراقبة</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/nine.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Automatic Water and Foam
+                            Extinguishing Systems</p>
+                        <p>أنظمة الإطفاء الآلي بالماء والرغوة</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/eeee.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Assembly Points and
+                            Directional Signs</p>
+                        <p>نقاط التجمع والعلامات الإرشادية</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/eleven.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Smoke and Ventilation Fans</p>
+                        <p>مـــراوح الدخــــان والتهويــــة</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/twelve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Smoke/Fire Curtain Systems</p>
+                        <p>أنظمــــة ستائـــر الدخـــان/الحريــق</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/thirteen.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Fire Rated Doors</p>
+                        <p>لأبــــــــــــواب المقاومـــــة للحريـــق</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/fourteen.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Fire Detection and
+                            Suppression Systems</p>
+                        <p>أنظمة الإطفاء الآلي بالغازات</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/fifteen.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Wet Chemical Fire
+                            Extinguisher System</p>
+                        <p>أنظمة الإطفاء بالمحلول الكيمائي</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Assets/exit.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>Emergency Exit Sign and
+                            Emergency Light</p>
+                        <p>إنــــــــــارة ومخــــــــــارج الطــــــوارئ</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+     </section>
+
+     <!-- our work  -->
+     <section class="latest-work container" id="latest-work">
+        <div class="title">
+            <h2>Latest Work</h2>
+        </div>
+        <div class="slider-wrapper">
+            <div class="image-slider">
+                <img src="Assets/work 1.JPG" alt="">
+                <img src="Assets/work 2.jpg" alt="">
+                <img src="Assets/work 3.jpeg" alt="">
+                <img src="Assets/work 4.jpg" alt="">
+                <img src="Assets/work 5.jpg" alt="">
+                <img src="Assets/work 6.jpg" alt="">
+                <img src="Assets/work 7.jpg" alt="">
+                <img src="Assets/work 8.jpg" alt="">
+                <img src="Assets/work 9.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!-- contact  -->
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-content container" id="contact">
+            <form class="contact-form">
+                <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+        
+                <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your Phone Number" required>
+                </div>
+        
+                <div class="form-group">
+                <label>Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-warning">Send Message</button>
+            </form>
+
+            <div class="contentA">
+                <div class="contact-info">
+                    <h3>Contact Info :</h3>
+                    <div class="location">
+                        <h5><i class="fas fa-map-marker-alt"></i> Our Loctaion</h4>
+                        <p></i> Al-Madinah Al-Munawarah Rd 2368 
+                            Hilal Ibn Umayyah Ash Sharafiyah 
+                            Dist. Second Floor Office Number 29</p>
+                    </div>
+                    <div class="fasterContact">
+                        <h5>Quick Contact</h4>
+                        <p><i class="fas fa-envelope"></i><a href="sales@powerof.sa">sales@powerof.sa</a></p>
+                        <p><i class="fas fa-phone"></i> 050 991 60 60</p>
+                    </div>
+                    <div class="text">
+                        <p>Do You Have Any Question , Just Contact Us To Get Help!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+        <div class="container p-5">
+            <div class="logo m-1"><span class="power">POWER</span><span>OF</span></div>
+            <div>
+                <ul class="nav justify-content-center ">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Project</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-icons">
+                <a href="https://www.facebook.com/people/%D9%82%D9%88%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D8%A1-Powerof-Sa/100028027734941/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/powerof_sa/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/powerof_sa?mx=2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://api.whatsapp.com/send/?phone=966559916060&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20...%20%D8%A7%D8%AD%D8%AA%D8%A7%D8%AC%20%D8%B2%D9%8A%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%88%20%D8%B9%D8%B1%D8%B6%20%D8%B3%D8%B9%D8%B1%20%20%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%D9%83%D9%85"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="rights text-center">
+            <p>&copy; All rights reserved to POWER OF 2024 Made With ♥ by <a target="_blank" href = "https://www.linkedin.com/in/sama-mahfouz-b19119291/">Sama Mahfouz</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+    <script src="script.js"></script>
+</body>
+</html>
